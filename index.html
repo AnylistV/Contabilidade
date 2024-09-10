@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Território Contábil - Contabilidade do Futuro</title>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- Font Awesome CSS (REMOVA A DUPLICATA) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Seu CSS -->
+  <link rel="stylesheet" href="src/output.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Seu JavaScript -->
+  <script src="js/script.js"></script>
+</head>
+
+
+<body class="bg-gray-50">
+  <header class="bg-primary text-white p-4">
+    <div class="container-fluid flex justify-between items-center">
+      <h1 class="text-white text-2xl font-bold">Território Contábil</h1>
+      <nav class="navbar navbar-expand-lg">
+        <ul class="flex space-x-4">
+          <li><a href="#" class="nav-link active hover:text-blue-100">Início</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nossos Planos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item " href="#">Plano Básico</a></li>
+              <li><a class="dropdown-item" href="#">Plano Avançado</a></li>
+              <li><a class="dropdown-item" href="#">Plano Premium</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Mais informações</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="nav-link hover:text-blue-100">Serviços</a></li>
+          <li><a href="#" class="nav-link hover:text-blue-100">Contato</a></li>
+          <li><a href="#" class="nav-link hover:text-blue-100">Conheça nossa empresa</a></li>
+          <a id='login' href="login.html" target="_blank"><i class="fa fa-fw fa-user"></i> Login</a>
+        </ul>
+      </nav>
+    </div>
+    <nav class="navbar" style="background-color: cyan-500;">
+      <div class="container-fluid">
+        <a class="navbar-brand"></a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="O que procura? " aria-label="Search">
+          <button type="submit" class="btn btn-outline-light">Pesquisar</button>
+
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container mx-auto mt-8 p-4">
+    <section class="text-center mb-12">
+      <h2 class="text-4xl font-bold mb-4 text-black">Contabilidade Inteligente para o Seu Negócio</h2>
+      <p class="text-xl text-black">Soluções inovadoras que transformam números em insights.</p>
+    </section>
+
+    <section class="banner bg-white p-6 rounded-lg shadow-md text-center">
+      <h2 class="text-3xl font-semibold mb-4 text-">Da abertura do CNPJ até a gestão contábil, conte com a gente.</h2>
+      <ul class="list-disc list-inside text-left mb-4 text-gray-700">
+        <li>Planos de acordo com o seu perfil</li>
+        <li>Assessores especialistas no segmento do seu negócio</li>
+        <li>Atendimento por telefone, WhatsApp, chat ou e-mail</li>
+        <li>Empresa 100% regularizada e pagando o mínimo de impostos</li>
+      </ul>
+      <button
+        class="bg-blue-500 text-white py-2 px-6 rounded-full text-lg hover:bg-blue-600 transition duration-300">ABRA SUA
+        EMPRESA GRÁTIS</button>
+      <button
+        class="bg-blue-500 text-white py-2 px-6 rounded-full text-lg hover:bg-blue-600 transition duration-300 ml-4">TROQUE
+        DE CONTADOR</button>
+      <img src="img/foto_1.jfif" alt="Imagem Contador" class="mt-4">
+    </section>
+
+    <section class="mt-12 text-center">
+      <h2 class="text-3xl font-bold mb-4 text-black">Pronto para Revolucionar Sua Contabilidade?</h2>
+      
+      <button
+        class="bg-blue-500 text-white py-2 px-6 rounded-full text-lg hover:bg-blue-600 transition duration-300  zoom-on-hover">Comece
+        Agora</button>
+    </section>
+    <section class="mt-12">
+      <h2 class="text-3xl font-bold mb-4 text-black text-center">Escolha o Plano Ideal para Seu Negócio</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="package bg-white p-6 rounded-lg shadow-md zoom-on-hover">
+          <div class="name font-bold text-xl mb-2">Básico</div>
+          <div class="price text-3xl text-blue-600 mb-2">$0</div>
+          <div class="trial text-gray-500 mb-4">Totalmente gratuito</div>
+          <hr class="my-4">
+          <ul class="list-disc list-inside text-left text-gray-700">
+            <li><strong>5</strong> membros da equipe</li>
+            <li><strong>3</strong> listas de reprodução da equipe</li>
+            <li><strong>Ilimitado</strong> listas de reprodução públicas</li>
+          </ul>
+        </div>
+    
+        <div class="package brilliant bg-white p-6 rounded-lg shadow-md zoom-on-hover relative h-full">
+          <div class="name font-bold text-xl mb-2">Premium</div>
+          <div class="price text-3xl text-blue-600 mb-2">$89,90</div>
+          <div class="trial text-gray-500 mb-4">Teste grátis por 30 dias</div>
+          <hr class="my-4">
+          <ul class="list-disc list-inside text-left text-gray-700">
+            <li><strong>Ilimitado</strong> membros da equipe</li>
+            <li><strong>Ilimitado</strong> listas de reprodução da equipe</li>
+            <li><strong>Ilimitado</strong> listas de reprodução públicas</li>
+            <li>Análise da equipe</li>
+            <li>Enviar arquivos</li>
+          </ul>
+        </div>
+    
+        <div class="package bg-white p-6 rounded-lg shadow-md zoom-on-hover">
+          <div class="name font-bold text-xl mb-2">Avançado</div>
+          <div class="price text-3xl text-blue-600 mb-2">$49,90</div>
+          <div class="trial text-gray-500 mb-4">Disponível por um mês</div>
+          <hr class="my-4">
+          <ul class="list-disc list-inside text-left text-gray-700">
+            <li><strong>8</strong> membros da equipe</li>
+            <li><strong>6</strong> listas de reprodução da equipe</li>
+            <li><strong>Ilimitado</strong> listas de reprodução públicas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    
+
+    <section class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+      <div class="bg-white p-6 rounded-lg shadow-md zoom-on-hover">
+        <i class="fas fa-chart-line text-4xl text-blue-400 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2 text-primarybg-primary">Dashboard Personalizado</h3>
+        <p class="text-gray-700">Visualize suas finanças com gráficos interativos e métricas chave em tempo real.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md zoom-on-hover">
+        <i class="fas fa-mobile-alt text-4xl text-blue-400 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2 text-primarybg-primary">App Móvel para Notas</h3>
+        <p class="text-gray-700">Digitalize notas fiscais e recibos com nosso app inteligente de OCR.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md zoom-on-hover">
+        <i class="fas fa-calculator text-4xl text-blue-400 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2 text-primarybg-primary">Planejamento Tributário IA</h3>
+        <p class="text-gray-700">Otimize sua carga tributária com nossas estratégias baseadas em IA.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md zoom-on-hover">
+        <i class="fas fa-shopping-cart text-4xl text-blue-400 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2 text-primarybg-primary">Integração E-commerce</h3>
+        <p class="text-gray-700">Conecte-se diretamente com as principais plataformas de vendas online.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md zoom-on-hover">
+        <i class="fas fa-robot text-4xl text-blue-400 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2 text-primarybg-primary">Assistente Virtual</h3>
+        <p class="text-gray-700">Obtenha respostas instantâneas com nosso assistente contábil especializado.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md zoom-on-hover">
+        <i class="fas fa-graduation-cap text-4xl text-blue-400 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2 text-primarybg-primary">Educação Financeira</h3>
+        <p class="text-gray-700">Acesse conteúdo personalizado para melhorar sua gestão financeira.</p>
+      </div>
+    </section>
+
+    <section class="solutions mt-12">
+      <h2 class="bg-primary text-3xl font-bold mb-4 text-white">Soluções ideais para o seu negócio</h2>
+      <div class="space-y-2">
+        <div class="border border-gray-200 rounded-lg overflow-hidden">
+          <button class="w-full text-left p-4 focus:outline-none bg-blue-100 hover:bg-blue-200 transition duration-300"
+            onclick="toggleAccordion('collapseOne')">
+            <strong class="text-primarybg-primary">Você escolhe a forma de atendimento</strong>
+          </button>
+          <div id="collapseOne" class="hidden p-4 bg-white">
+            <p class="text-gray-700">
+              No <strong class="text-primary">Território Contábil</strong> você tem a opção de escolher sua
+              forma de atendimento preferida:
+              WhatsApp, chat, telefone, e-mail e pode até contar com um atendimento exclusivo, através de um assessor
+              especialista no seu segmento, escolhendo o plano Experts.
+            </p>
+          </div>
+        </div>
+        <div class="border border-gray-200 rounded-lg overflow-hidden">
+          <button class="w-full text-left p-4 focus:outline-none bg-blue-100 hover:bg-blue-200 transition duration-300"
+            onclick="toggleAccordion('collapseTwo')">
+            <strong class="text-primarybg-primary">Tenha uma Conta Digital PJ*</strong>
+          </button>
+          <div id="collapseTwo" class="hidden p-4 bg-white">
+            <p class="text-gray-700">
+              Abra seu CNPJ com a gente e ganhe uma conta PJ digital totalmente integrada com a sua contabilidade da sua
+              empresa para você emitir notas fiscais e receber pelas suas vendas ou serviços diretamente na sua conta!
+
+              *Sujeito a análise e aprovação de crédito.
+            </p>
+          </div>
+        </div>
+        <div class="border border-gray-200 rounded-lg overflow-hidden">
+          <button class="w-full text-left p-4 focus:outline-none bg-blue-100 hover:bg-blue-200 transition duration-300"
+            onclick="toggleAccordion('collapseThree')">
+            <strong class="text-primarybg-primary">Realizamos o controle de impostos e rotinas</strong>
+          </button>
+          <div id="collapseThree" class="hidden p-4 bg-white">
+            <p class="text-gray-700">
+              Ajudamos você a organizar todas as suas obrigações contábeis e de cálculo de impostos mensais.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="processo-simplificado bg-white py-8">
+      <div class="container">
+        <h1>Veja como é fácil trazer sua empresa para o Território Contábil.</h1>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number zoom-on-hover">1</div>
+            <h3 class=" zoom-on-hover">Cadastro</h3>
+            <p class="step-text">Faça seu cadastro para verificar se o Território Contábil pode te atender. Após isso,
+              pague a primeira mensalidade.</p>
+          </div>
+          <div class="step">
+            <div class="step-number  zoom-on-hover">2</div>
+            <h3 class=" zoom-on-hover">Documentação</h3>
+            <p class="step-text">Cuidamos do processo de migração, usando seu CNPJ ou entrando em contato com seu
+              contador para que ele forneça a documentação da sua empresa.</p>
+          </div>
+          <div class="step">
+            <div class="step-number  zoom-on-hover">✓</div>
+            <h3 class=" zoom-on-hover">Tudo pronto!</h3>
+            <p class="step-text">Agora sua empresa já faz parte do Território Contábil e você economizará tempo e
+              dinheiro com um serviço de qualidade.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="bg-blue-500 text-white py-2 px-6 rounded-full text-lg hover:bg-blue-600 transition duration-300">Quero
+        trocar de Contador</button>
+    </section>
+
+    <section class="investimento-sucesso bg-white py-8">
+      <div class="container mx-auto d-flex md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6">
+        <div class="flex-1">
+          <h2 class="text-4xl font-bold text-black mb-4">A hora de investir no sucesso da sua empresa é agora!</h2>
+          <p class="text-gray-700 text-xl mb-6">Abra sua empresa agora ou agende um atendimento com um dos nossos
+            especialistas de contabilidade.</p>
+          <div class="flex space-x-4">
+            <button
+              class="bg-blue-500 text-white py-2 px-6 rounded-full text-lg hover:bg-blue-600 transition duration-300">Abra
+              sua Empresa</button>
+            <button
+              class="bg-blue-500 text-white py-2 px-6 rounded-full text-lg hover:bg-blue-600 transition duration-300">Fale
+              com um Especialista</button>
+          </div>
+        </div>
+        <div class="flex-2">
+          <img src="img/contador.jpg" alt="Investimento no sucesso" class="rounded-lg shadow-md">
+        </div>
+      </div>
+    </section>
+
+    <section class="card mt-12">
+      <div class="card-body bg-white p-6 rounded-lg shadow-md">
+        <img src="img/aaa.png" class="card-img-top" alt="card_empresa" style="width: 45%;display:block;margin: 0 auto;">
+        <h5 class="card-title text-xl font-semibold mt-4 text-primarybg-primary">Nos conheça um pouco mais</h5>
+        <p class="card-text mt-2 text-gray-700">Aqui, você tem um acesso fácil e resumido sobre nós, use nosso Qrcode,
+          ou clique no
+          botão abaixo.</p>
+        <a href="#" class="btn btn-primary mt-4 bg-blue-500 hover:bg-blue-600">Venha conferir</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-blue-500 text-white mt-12 py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Território Contábil. Todos os direitos reservados.</p>
+    </div>
+    <div id="toast"></div>
+    <div class="chat-button-container">
+      <!-- Botão de abrir o modal de chat -->
+      <button id="chat-button" onclick="openChatModal()">
+        <i class="fas fa-comments"></i>
+      </button>
+
+      <!-- Botão de WhatsApp -->
+      <button id="whatsapp-button" onclick="openWhatsApp()">
+        <i class="fab fa-whatsapp"></i>
+      </button>
+    </div>
+    
+
+    <!-- Modal de Chat -->
+    <div id="chatModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeChatModal()">&times;</span>
+        <h2>Chat com o Especialista</h2>
+        <div class="chat-window">
+          <p>Bem-vindo ao suporte! Como podemos ajudar?</p>
+        </div>
+        <textarea id="chat-input" placeholder="Digite sua mensagem..."></textarea>
+        <button id="send-btn">Enviar</button>
+      </div>
+    </div>
+
+
+
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    function toggleAccordion(id) {
+      var element = document.getElementById(id);
+      if (element.classList.contains('hidden')) {
+        element.classList.remove('hidden');
+      } else {
+        element.classList.add('hidden');
+      }
+    }
+  </script>
+</body>
+
+
+</html>
